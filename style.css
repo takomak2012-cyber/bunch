@@ -68,8 +68,32 @@ h1 {
 .btn-primary { background: var(--accent); color: #fff; }
 .btn-ghost { background: transparent; color: var(--text); border: 2px solid #3a3a5e; }
 
-.direct-link { color: var(--text-dim); font-size: 14px; margin: 10px 0 0; }
-.direct-link a { color: var(--accent); text-decoration: underline; }
+.direct-link {
+  color: var(--text-dim);
+  font-size: 16px;
+  margin: 14px 0 0;
+  line-height: 1.5;
+}
+
+.direct-link a {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.direct-link a:hover { color: #ff8a5c; }
+
+.direct-hint { color: #7d7d9a; font-size: 13px; }
+
+.direct-url {
+  color: #6d6d8a;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 11px;
+  word-break: break-all;
+  margin: 4px 0 18px;
+}
 
 .note { color: #7d7d9a; font-size: 14px; margin-top: 22px; }
 
