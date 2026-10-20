@@ -121,6 +121,25 @@ h1 {
 .install-title { font-size: 22px; font-weight: 700; margin: 0 0 6px; }
 .install-url { color: var(--accent); font-weight: 700; font-size: 20px; margin: 0 0 18px; }
 
+.version-box {
+  background: #171733;
+  border: 1px solid #2c2c50;
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin: 0 0 20px;
+  font-size: 14px;
+  color: var(--text-dim);
+}
+.version-box p { margin: 0 0 6px; }
+.version-box p:last-child { margin-bottom: 0; }
+.version-box a { color: var(--accent); text-decoration: none; }
+.version-box .hash {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 11px;
+  color: #7d7d9a;
+  word-break: break-all;
+}
+
 .faq { max-width: 760px; margin: 0 auto; }
 .faq details {
   background: var(--bg-card);
