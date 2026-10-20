@@ -66,8 +66,10 @@ h1 {
 .btn:hover { transform: translateY(-2px); filter: brightness(1.06); }
 
 .btn-primary { background: var(--accent); color: #fff; }
-.btn-apk { background: var(--teal); color: #fff; }
 .btn-ghost { background: transparent; color: var(--text); border: 2px solid #3a3a5e; }
+
+.direct-link { color: var(--text-dim); font-size: 14px; margin: 10px 0 0; }
+.direct-link a { color: var(--accent); text-decoration: underline; }
 
 .note { color: #7d7d9a; font-size: 14px; margin-top: 22px; }
 
