@@ -67,6 +67,38 @@ h1 {
 
 .btn-primary { background: var(--accent); color: #fff; }
 .btn-ghost { background: transparent; color: var(--text); border: 2px solid #3a3a5e; }
+.btn-store { background: #2196f3; color: #fff; }
+
+.hero-badges {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 22px 0 10px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(255, 107, 53, .12);
+  border: 1px solid rgba(255, 107, 53, .45);
+  color: #ffb59a;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.cta-left { justify-content: flex-start; margin: 16px 0 12px; }
+
+.shots figure { margin: 0; }
+.shots figcaption {
+  color: var(--text-dim);
+  font-size: 13px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.install-col { flex: 1; min-width: 280px; }
 
 .direct-link {
   color: var(--text-dim);
